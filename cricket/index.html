@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cricket Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game">
+    <h1>Cricket Game</h1>
+    <p>Choose your move:</p>
+
+    <div class="buttons">
+      <button data-move="bat">🏏 Bat</button>
+      <button data-move="ball">⚾ Ball</button>
+      <button data-move="wicket">🛑 Wicket</button>
+    </div>
+
+    <div id="result"></div>
+    <div id="score">You: 0 | Computer: 0</div>
+    <button id="resetBtn">🔄 Reset</button>
+  </div>
+
+  <!-- script loaded at end so DOM is available -->
+  <script src="script.js"></script>
+</body>
+</html>
